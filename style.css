@@ -201,7 +201,13 @@ a.brand {
         flex-direction: column;
 
     }
-
+.feature-box {
+padding:20px 15px 10px 15px;
+	
+	}
+	
+	
+	
 	.header {
 		max-width: 100%;
 		width: 690px;
