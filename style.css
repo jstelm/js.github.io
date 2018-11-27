@@ -51,7 +51,6 @@ a.brand {
     display: flex;
     justify-content: space-between;
     align-items: center;
-		    flex-direction: column;
 
 }
 
@@ -112,7 +111,7 @@ a.brand {
 	margin:0 auto;
 }
 .intro-section {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 70px;
 }
 .section-header{
@@ -205,13 +204,14 @@ a.brand {
     }
 
 
-	.container {
+	.page-header {
 		max-width: 100%;
 		width: 490px;
-		
+		flex-direction: column;
+
 	}
 	
-	
+
 	.section-header{
 		font-size:70%;
 }
