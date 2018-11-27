@@ -202,8 +202,6 @@ a.brand {
         flex-direction: column;
 
     }
-}
-
 
 
 	.container {
@@ -211,7 +209,7 @@ a.brand {
 		max-width: 100%;
 		width: 70em;
 	}
-
+}
 		@media screen and (max-width: 1680px) {
 
 			.container {
