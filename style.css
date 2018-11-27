@@ -15,7 +15,7 @@ body{
 
  a:hover{
     color: #feb600;
-        transition: all 0.3s ease;
+    transition: all 0.3s ease;
 
 }
 
@@ -118,7 +118,7 @@ a.brand {
 }
 .section-header h3{
     font-size: 54px;
-    line-height: 60px;
+    line-height: 1.2em;
     font-weight: 500;
     color: #FEB600;
     margin: 0;
@@ -184,13 +184,23 @@ a.brand {
 .page-footer p {
 	margin: 0 auto;
 }
+
+
+
+
+
+
 @media all and (max-width: 500px) {
   .menu-items {
-    max-width:40%;
-   flex-direction: column;
+    width:40%;
+    font-size: 16px;
+    flex-direction: column;
   }
+
     
-    .container{
-            max-width:40%;
-		margin:0 auto;
+    .feature-boxes {	
+        width:30%;
+        flex-direction: column;
+
+    }
 }
