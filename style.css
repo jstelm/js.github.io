@@ -192,14 +192,13 @@ a.brand {
 
 @media all and (max-width: 500px) {
   .menu-items {
-    width:40%;
-    font-size: 16px;
+    max-width:480px;
     flex-direction: column;
   }
 
     
     .feature-boxes {	
-        width:30%;
+        max-width:480px;
         flex-direction: column;
 
     }
