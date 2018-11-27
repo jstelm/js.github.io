@@ -191,7 +191,7 @@ a.brand {
 
 @media screen and (max-width: 500px) {
   .menu-items {
-    max-width:500px;
+    max-width:480px;
     flex-direction: column;
   }
 
@@ -203,10 +203,14 @@ a.brand {
 
 
 	.container {
-		margin: 0 auto;
 		max-width: 100%;
 		width: 70em;
+		
 	}
+	
+	
+	.section-header{
+		font-size:70%;
 }
 		
 
