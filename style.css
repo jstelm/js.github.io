@@ -197,7 +197,7 @@ a.brand {
 
   }
 
-    .feature-boxes {	
+    .feature-boxes > .container {
         max-width:700px;
         flex-direction: column;
 
