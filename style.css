@@ -189,16 +189,15 @@ a.brand {
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .menu-items {
-    max-width:350px;
+    max-width:500px;
     flex-direction: column;
   }
 
     .feature-box {	
-        max-width:350px;
-	    	flex-basis: 90%;
-
+        max-width:500px;
+	  flex-basis: 90%;
         flex-direction: column;
 
     }
@@ -210,21 +209,7 @@ a.brand {
 		width: 70em;
 	}
 }
-		@media screen and (max-width: 1680px) {
-
-			.container {
-				width: 68em;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.container {
-				width: calc(100% - 80px);
-			}
-
-		}
+		
 
 		@media screen and (max-width: 980px) {
 
