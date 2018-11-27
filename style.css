@@ -75,7 +75,6 @@ a.brand {
 .menu-items li {
     display: inline-block;
     margin:0 5px;
-    float:left;
 }
 .menu-items li a {
     padding: 16px 20px;
@@ -150,7 +149,7 @@ a.brand {
 }
 
 .feature-box {
-	flex-basis: 33%;
+	flex-basis: 30%;
 	text-align: center;
 }
 
