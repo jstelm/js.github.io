@@ -221,8 +221,8 @@ a.brand {
 	}
 	
 
-	.section-header{
-		font-size:70%;
+	.section-header h3,p{
+		font-size:60%;
 }
 }	
 
