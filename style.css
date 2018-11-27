@@ -207,7 +207,8 @@ a.brand {
 		max-width: 100%;
 		width: 690px;
 		flex-direction: column;
-
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	
 
