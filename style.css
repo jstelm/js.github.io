@@ -185,7 +185,10 @@ a.brand {
 	margin: 0 auto;
 }
 
-
+/*about*/
+article h3 {
+    border-bottom: 1px solid #333;
+}
 
 
 
