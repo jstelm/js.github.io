@@ -195,7 +195,10 @@ a.brand {
 	flex-direction: column;
 
   }
-
+.menu-items li a {
+	padding: 10px 10px;
+	
+}
     .feature-boxes > .container {
         flex-direction: column;
 
