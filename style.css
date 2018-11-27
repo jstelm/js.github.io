@@ -173,10 +173,10 @@ a.brand {
 }
 /* Footer */
 .page-footer {
-    background-color: #5d6981;
+ 	background-color: #5d6981;
 	padding: 20px 0;
 	text-align: center;
-    color:#ffff;
+    	color:#ffff;
     
 }
 
@@ -195,9 +195,8 @@ a.brand {
     flex-direction: column;
   }
 
-    .feature-box {	
-        max-width:500px;
-	  flex-basis: 90%;
+    .feature-boxes {	
+        max-width:300px;
         flex-direction: column;
 
     }
