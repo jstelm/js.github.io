@@ -189,14 +189,14 @@ a.brand {
 
 
 
-@media all and (max-width: 760px) {
+@media screen and (max-width: 360px) {
   .menu-items {
-    max-width:480px;
+    max-width:350px;
     flex-direction: column;
   }
 
     .feature-box {	
-        max-width:480px;
+        max-width:350px;
 	    	flex-basis: 90%;
 
         flex-direction: column;
