@@ -106,9 +106,13 @@ a.brand {
 
 
 /* page section */
+
+.wrapper {
+		background-color: #333;
+}
+
 .page-section{
 	margin:0 auto;
-	background-color: #333;
 
 }
 .intro-section {
