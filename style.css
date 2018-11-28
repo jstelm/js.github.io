@@ -108,11 +108,12 @@ a.brand {
 /* page section */
 .page-section{
 	margin:0 auto;
+	background-color: #333;
+
 }
 .intro-section {
     padding-top: 80px;
     padding-bottom: 70px;
-	background-color: #333;
 }
 .section-header{
     
