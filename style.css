@@ -87,8 +87,7 @@ a.brand {
 }
 
 .menu-items .active{
-    border: 1px solid #9d9d9d;
-    border-bottom:100%;
+    border-bottom: 1px solid #9d9d9d;
 
 
 }
