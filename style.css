@@ -89,7 +89,7 @@ a.brand {
 
 .menu-items .active{
     border-bottom: 1px solid #9d9d9d;
-	transform: all 0.5s ease;
+	transition: all 0.5s ease;
 
 }
     
