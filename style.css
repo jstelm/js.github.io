@@ -1,7 +1,6 @@
 
 
 body{
-	background-color:#D3D3D3;
     font: 300 18px / 1.6em 'Poppins', sans-serif;
     box-sizing: border-box;   
 }
@@ -163,6 +162,7 @@ a.brand {
 }
 .feature-box img:hover{
 	transform: scale(1.1);
+	
 }
 
 .feature-box i {
@@ -211,7 +211,7 @@ article h3 {
 
   }
 .menu-items li a {
-	padding: 10px 10px;
+	padding: 5px;
 	
 }
     .feature-boxes > .container {
@@ -227,7 +227,7 @@ article h3 {
 	
 	.header {
 		max-width: 100%;
-		width: 690px;
+		width: 700px;
 		flex-direction: column;
 		
 	}
