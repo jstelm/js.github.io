@@ -1,7 +1,7 @@
 
 
 body{
-    font: 300 18px / 1.6em 'Poppins', sans-serif;
+    font: 300 16px / 1.6em 'Poppins', sans-serif;*/
     box-sizing: border-box;   
 }
 
@@ -11,12 +11,13 @@ body{
   a{
     color: #333;
     text-decoration: none;
-	      transition: all 0.3s ease;
+    transition: all 0.3s ease;
 
 }
 
  a:hover{
-    color: #feb600;
+    background-color: #9209B1;
+    color: #fff; 
 
 }
 
@@ -56,11 +57,15 @@ a.brand {
 }
 
 .brand {
-    display: block;
+    display: inline-block;
     font-weight: 500;
+    
 
 }
-    
+.brand:hover {
+
+        background: #fff;
+}
 /*menu*/
 
 
@@ -88,17 +93,18 @@ a.brand {
 }
 
 .menu-items .active{
-    border-bottom: 1px solid #9d9d9d;
-	transition: all 0.5s ease;
+  background-color: #A914CB;
+    color: #fff; 
 
 }
     
 .menu-items .facebook-icon a {
  font-size: 36px;   
+ 
 }
 
 .facebook-icon a:hover{
-    
+    background: #fff;
     color:#4267B2;
 }
 
@@ -162,11 +168,12 @@ a.brand {
 }
 .feature-box img:hover{
 	transform: scale(1.1);
+    overflow: hidden;
 	
 }
 
 .feature-box i {
-     font-size:64px;
+     font-size:56px;
     color: #FEB600;
     padding-bottom: 20px;
     
@@ -184,6 +191,9 @@ a.brand {
 .feature-box p {
 	margin: 0;
 }
+
+
+
 /* Footer */
 .page-footer {
  	background-color: #5d6981;
