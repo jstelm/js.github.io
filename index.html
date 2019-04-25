@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">    
     
-    <title>Project website</title>
+    <title>Project website JS</title>
     <link rel="stylesheet" href="style.css">
+    
 <!--    <link rel="stylesheet" href="normalize.css">-->
 
+<script type="text/javascript" src="script.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,700" rel="stylesheet">
@@ -27,13 +29,42 @@
                 <li><a href="news.html">Aktualności</a></li>  
                 <li><a href="cennik.html">Cennik</a></li>
                 <li><a href="kontakt.html" >Kontakt</a></li>
-                
                 <li class="facebook-icon"><a href="http://www.facebook.com"><span class="fab fa-facebook"></span></a></li>
+                <li class="icon hide-menu-btn"><i class="far fa-times-circle"></i></li>
             </ul>
-        
-
+                 <ul>
+                  <li class="icon show-menu-btn"><i class="fas fa-bars"></i></li>
+                
+                     
+                     </ul>
         </nav>      
+    
+      <script>  $(document).ready(function(){
+    $(".show-menu-btn").click(function(){
+        $("ul").toggleClass("menu-items");
+    });
+});
         
+           </script>
+       
+     <script>  $(document).ready(function(){
+    $(".hide-menu-btn").click(function(){
+        $("ul").toggleClass("menu-items");
+    });
+});
+        
+           </script>
+       
+          
+
+           
+           
+           
+       
+       
+       
+       
+       
         </div>
     </header>
     <div class="wrapper">

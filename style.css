@@ -68,7 +68,10 @@ a.brand {
 }
 /*menu*/
 
+.icon{
 
+    display: none;
+}
 
 .menu-items{
 
@@ -218,10 +221,28 @@ article h3 {
 @media screen and (max-width: 780px) {
   .menu-items {
 	flex-direction: column;
+    display: none;
+    list-style: none;
 
   }
+    
+.icon {
+    display: block;
+    }
+    
+  .show-menu-btn,.hide-menu-btn{
+ font-size:52px;
+    display:block;
+      	position: absolute;
+	top: 50px;
+	right: 150px;
+    }
+ 
+		
 .menu-items li a {
 	padding: 5px;
+    display: block;
+    
 	
 }
     .feature-boxes > .container {
@@ -254,4 +275,4 @@ article h3 {
 			
 }	
 
-		
+}
