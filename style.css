@@ -68,7 +68,7 @@ a.brand {
 }
 /*menu*/
 
-.icon li{
+.show-menu-btn, .hide-menu-btn{
 	display:none;
 }
 
