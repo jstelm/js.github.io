@@ -68,8 +68,8 @@ a.brand {
 }
 /*menu*/
 
-.icon{
-	display:flex;
+li .icon{
+	display:none;
 }
 
 .menu-items{
