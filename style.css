@@ -69,7 +69,7 @@ a.brand {
 /*menu*/
 
 .icon{
-	display:none;
+	display:flex;
 }
 
 .menu-items{
