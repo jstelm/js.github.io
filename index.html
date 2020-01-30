@@ -107,10 +107,13 @@
     <footer class="page-footer">
         <div class="container">
             
-            <p>Copyright &copy 2018 JS</p>
+            <p id="year"></p>
         </div>
         
     </footer>
-    
+    <script>
+var year = new Date();
+document.getElementById("date").innerHTML = year.getFullYear();
+</script>
 </body>
 </html>
