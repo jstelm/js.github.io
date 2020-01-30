@@ -217,7 +217,7 @@ article h3 {
 
 @media screen and (min-width: 781px){
 	.show-menu-btn,.hide-menu-btn{
-	display:none;
+	visibility: hidden;
 	}
 }
 
