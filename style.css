@@ -110,9 +110,7 @@ a.brand {
     color:#4267B2;
 }
 
-.show-menu-btn,.hide-menu-btn{
-display:none;
-    }
+
 
 
 /* page section */
@@ -217,7 +215,11 @@ article h3 {
 }
 
 
-
+@media screen and (min-width: 781px){
+	.show-menu-btn,.hide-menu-btn{
+	display:none;
+	}
+}
 
 @media screen and (max-width: 780px) {
   .menu-items {
