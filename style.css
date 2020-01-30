@@ -110,7 +110,9 @@ a.brand {
     color:#4267B2;
 }
 
-
+.show-menu-btn,.hide-menu-btn{
+display:none;
+    }
 
 
 /* page section */
