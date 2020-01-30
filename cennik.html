@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">    
     
-    <title>Project website - index2</title>
+    <title>Project website - cennik</title>
     <link rel="stylesheet" href="style.css">
 <!--    <link rel="stylesheet" href="normalize.css">-->
 
@@ -106,10 +106,13 @@
     <footer class="page-footer">
         <div class="container">
             
-            <p>Copyright &copy 2018 JS</p>
+            <p id="year"></p>
         </div>
         
     </footer>
-    
+    <script>
+var year = new Date();
+document.getElementById("date").innerHTML = ("Copyright &copy " + year.getFullYear());
+</script>
 </body>
 </html>
