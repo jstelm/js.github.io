@@ -109,12 +109,16 @@ Coraz częściej mówi się, że ideałem strony www jest landing page. Wiadomo 
     </secton>
     
     <footer class="page-footer">
-        <div class="container">
+         <div class="container">
             
-            <p>Copyright &copy 2018 JS</p>
+            <p id="date"></p>
         </div>
         
     </footer>
+    <script>
+var year = new Date();
+document.getElementById("date").innerHTML = ("Copyright &copy " + year.getFullYear());
+</script>
     
 </body>
 </html>
